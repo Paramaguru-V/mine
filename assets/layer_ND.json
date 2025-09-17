@@ -1,0 +1,508 @@
+{
+    "version": "4.3",
+    "name": "Custom Rules Layer",
+    "description": "Auto-generated from Excel",
+    "domain": "enterprise-attack",
+    "techniques": [
+        {
+            "techniqueID": "T1003",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1003.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1006",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1006.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1021",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1021.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1028",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1028.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1036",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1036.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1040",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1040.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1041",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1041.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1046",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1046.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1047",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1047.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1052",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1052.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1053",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1053.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1055",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1055.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1059",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1059.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1068",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1068.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1070",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1070.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1078",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1078.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1083",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1083.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1087",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1087.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1090",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1090.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1098",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1098.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1105",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1105.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1110",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1110.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1114",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1114.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1136",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1136.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1190",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1190.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1204",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1204.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1213",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1213.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1218",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1218.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1484",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1484.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1485",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1485.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1486",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1486.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1498",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1498.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1499",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1499.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1505",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1505.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1528",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1528.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1529",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1529.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1530",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1530.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1531",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1531.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1543.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1547",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1547.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1548",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1548.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1550",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1550.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1558",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1558.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1562",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1562.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1566",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1566.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1569",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1569.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1570",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1570.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1571",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1571.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1572",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1572.html"
+                }
+            ]
+        },
+        {
+            "techniqueID": "T1580",
+            "color": "#ff6666",
+            "links": [
+                {
+                    "label": "View Rules",
+                    "url": "assets/rules/T1580.html"
+                }
+            ]
+        }
+    ]
+}

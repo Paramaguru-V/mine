@@ -1,0 +1,2208 @@
+{
+  "name": "Converted from Excel",
+  "version": "4.5",
+  "domain": "enterprise-attack",
+  "description": "Converted 365 techniques from Excel",
+  "techniques": [
+    {
+      "techniqueID": "T1136",
+      "tactic": "persistence",
+      "score": 1,
+      "color": "#1f77b4",
+      "comment": "Rule: P3_User Account Created OR Deleted | Create Account (T1136)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_User account Enabled or Disabled | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1550",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: P1 RT Potential Pass The Ticket Attack | Use Alternate Authentication Material (T1550)"
+    },
+    {
+      "techniqueID": "T1558",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P1 RT Suspicious Kerberos Service Ticket Request | Steal or Forge Kerberos Tickets (T1558)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_Windows Audit Log cleared | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Security Group Created/Deleted/Modified | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1484",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_Windows Domain Trust Created and Removed | Domain Trust Modification (T1484)"
+    },
+    {
+      "techniqueID": "T1006",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1-RT-Windows A directory service object was undeleted | Data from Local System (T1006)"
+    },
+    {
+      "techniqueID": "T1053",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Windows Scheduled Task activity Created / Deleted | Scheduled Task/Job (T1053)"
+    },
+    {
+      "techniqueID": "T1548",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P1 RT  Windows User Rights Escalated_Common | Abuse Elevation Control Mechanism (T1548)"
+    },
+    {
+      "techniqueID": "T1484",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_AD Forest Policy change | Domain Trust Modification (T1484)"
+    },
+    {
+      "techniqueID": "T1550",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: P2_Windows REPLAY Attack Detected | Use Alternate Authentication Material (T1550)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Administator Account enabled or disabled | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P3_Windows Administrator Interactive Logon | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1531",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P2_Windows Administrator account Lockout | Account Access Removal (T1531)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_Multiple authentication failure from same Source IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_Multiple Authentication attempt to a Disabled account | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_Multiple Authentication attempt to an Expired Account | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1003",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_Windows Credential Theft Command | OS Credential Dumping (T1003)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P2_DSRM password change | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1003",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_Windows AD Backup File Accessed | OS Credential Dumping (T1003)"
+    },
+    {
+      "techniqueID": "T1021",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: P2_Multiple RDP login from single username | Remote Services (T1021)"
+    },
+    {
+      "techniqueID": "T1059",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P3_PowerShell Script Monitoring | Command and Scripting Interpreter (T1059)"
+    },
+    {
+      "techniqueID": "T1569",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P3_PSEXEC - Service Start detected | System Services (T1569)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P1_Excessive Account Lockouts Observed | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1059",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P1_Attack tools detected | Command and Scripting Interpreter (T1059)"
+    },
+    {
+      "techniqueID": "T1087",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P1-RT-Windows PowerView Unconstrained Delegation Discovery | Account Discovery (T1087)"
+    },
+    {
+      "techniqueID": "T1047",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P1-Windows Remote Management WinRM | Windows Management Instrumentation (T1047)"
+    },
+    {
+      "techniqueID": "T1068",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P3_Possible PrintNightmare vulnerability detected | Exploitation for Privilege Escalation (T1068)"
+    },
+    {
+      "techniqueID": "T1485",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P3_Possible WhisperGate Behaviour Activity detected - Process creation | Data Destruction (T1485)"
+    },
+    {
+      "techniqueID": "T1040",
+      "tactic": "collection",
+      "score": 1,
+      "comment": "Rule: P2_Interface entered in promiscuous mode | Network Sniffing (T1040)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Linux Group Added/Removed/Modified | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Linux Cron Job Failed/Removed | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P2_DDos Attack detected | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1547",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P1_Registry values Modified | Boot or Logon Autostart Execution (T1547)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P2_Network Shutdown/Restart Activity Detected | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P3_Excessive Firewall Denies from Single Local Source | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_Firewall Connections Allowed on TOR / Onion Ports | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_Failed Admin Logins Cisco ASA | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1068",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P3_Linux Privilege Escalation | Exploitation for Privilege Escalation (T1068)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Group member Added/Removed | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1548",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P2_Privilege escalation Observed | Abuse Elevation Control Mechanism (T1548)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_Windows Kerberos/ NTLM ticketing authentication failed | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1003",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_Windows Detailed Directory Service Replication | OS Credential Dumping (T1003)"
+    },
+    {
+      "techniqueID": "T1484",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_RT_Windows kerberos policy Adjusted | Domain Policy Modification (T1484)"
+    },
+    {
+      "techniqueID": "T1547",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: Cisco Meraki - VPN Registry Change | Boot or Logon Autostart Execution (T1547)"
+    },
+    {
+      "techniqueID": "T1499",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P2_VM Snapshots created or removed | Inhibit System Function (T1499)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Multiple IPS Signatures Detected from the same Source | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1499",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P3_VM Created or Removed from virtual environment | Inhibit System Function (T1499)"
+    },
+    {
+      "techniqueID": "T1529",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P2_Linux Server Restart / Shutdown | System Shutdown/Reboot (T1529)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P2_Linux Multiple Password Changes in Short Time Period | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1484",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_Domain/Audit Policy Change | Domain Policy Modification (T1484)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P1_Internal L2L FTP Scanner | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1485",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P3_Fractal_FMS_Drop/Truncate table detected | Data Destruction (T1485)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P2_Internal L2L IRC Server Scanner | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0008_SentinelOne_Multiple_Malware_Allowed_in_Single_Host | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3-O365- Permissions Modification Detected | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P3_Excessive Firewall Accept from Single Remote Source | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_Multiple Login Failures for same Username | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P3_Excessive Firewall Denies from Single Remote Source | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P2_Multiple denied traffic detected from same TI malicious IP | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Allowed WAF traffic detected from TI malicious IP | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P3_Remote SSH Server Scanner | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P3_Remote LDAP Server Scanner | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_O365_Change User Password Failure | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1531",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P3_O365-Disabled Account | Account Access Removal (T1531)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P2_User Password is set to never expires | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P2_Malware detected by Netskope | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1003",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_Windows Credential Theft Command_GU_Updated | OS Credential Dumping (T1003)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Password change - \"Administrator\" | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0002_SentinelOne_High_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0003_SentinelOne_Medium_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EDR_0013_SentinelOne_Password_Spray_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0004_SentinelOne_Low_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EDR_0010_SentinelOne_Excessive_Login_Failure | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EDR_0011_SentinelOne_Brute_Force_Behavior_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: EDR_0016_SentinelOne_Login_from_TI_IP | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0015_SentinelOne_TI_Hash_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Fractal_Iron scale Impersonation | Phishing (T1566)"
+    },
+    {
+      "techniqueID": "T1570",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: EDR_0009_SentinelOne_Single_Malware_Allowed_in_Multiple_Hosts | Lateral Tool Transfer (T1570)"
+    },
+    {
+      "techniqueID": "T1543",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console Attach Volume To An Instance | Create or Modify System Process (T1543)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 401 response code on frequent host from same source ip | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_F5_ASM multiple 429 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_WAF_Web Exploit_Not Blocked | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1531",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P4-AWS Cloudtrail_User account deleted on AWS Console | Account Access Removal (T1531)"
+    },
+    {
+      "techniqueID": "T1136",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P4-AWS Cloudtrail_New user created on AWS Console | Create Account (T1136)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB Communication from Bad User Agent | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1485",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P4-AWS Cloudtrail -Deletion of File System and Mount Target in EFS | Data Destruction (T1485)"
+    },
+    {
+      "techniqueID": "T1528",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P4-AWS Cloudtrail -Create or Delete or Import Key Pairs | Steal Application Access Token (T1528)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 888 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1499.002",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P3-AWS CloudTrail: S3 Data Management Tampering | Data Manipulation (T1499.002)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: Azure AD_Landspeed_Anomaly | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 502 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 888 response code from same malicious IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 429 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 401 response code from same source IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: GoDigit_F5_ASM multiple 401 response code from same malicious IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: GoDigit_F5_ASM multiple 401 response code from same source IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_F5_ASM multiple 502 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: FIR_0007_Firewall_Communication_from_TI_IP | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: Forcepoint - Possible Malicious Content Observed | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: Oracle DB - Table Creation Detected | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1485",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: Oracle DB - Table Deletion Detected | Data Destruction (T1485)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: Oracle DB - Multiple Login Failure observed | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: Oracle DB - User Rights Assigned | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: O365_Suspicious Email Deletion Activity | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1580",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console Describe Security Group Rules | Cloud Service Discovery (T1580)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: Arcon - Multiple Failed login attempts from same source IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: GoDigit_Crowdstrike_Alert_Detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: Azure AD_Password_Spray_Attack_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EGW_0005_O365_Excessive_Login_Failure | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1543",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console Virtual Machine Created | Create or Modify System Process (T1543)"
+    },
+    {
+      "techniqueID": "T1499",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console Virtual Machine Deletion | Inhibit System Function (T1499)"
+    },
+    {
+      "techniqueID": "T1528",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P4-AWS Cloudtrail - Create or Delete or Update Access Keys | Steal Application Access Token (T1528)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: EGW_0003_O365_TI_IP_Login_activity_detected | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_WAF_Compliance Violation _Not Blocked | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_Go_Digit_Multiple authentication failure from same Source IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3-AWS Cloudtrail - IAM Policy changed | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_WAF_Command execution_Not Blocked | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_WAF_Cross Site Scripting_Not Blocked | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_WAF_SQL injection_Not Blocked | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_WAF_Code Injection_Not Blocked | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: Arcon - Successful Login after Multiple Failed login attempts from same source IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_Multiple SSH Authentication Failures | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: Arcon - Service Password Change | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console Virtual Machine Created AND Deleted Within 24 hours | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: Azure AD_Excessive_Login_Failure | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1083",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P1_Search for Password Files using findstr (Windows) | File and Directory Discovery (T1083)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console port changed | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1499",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P1_Recovery Disabled in Boot Configuration Data | Inhibit System Function (T1499)"
+    },
+    {
+      "techniqueID": "T1055",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_Potential Memory Code Injection | Process Injection (T1055)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: Azure AD_TI_IP_Login_activity_detected | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1218",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P1_Potential Windows Exploit via MSDT | Signed Binary Proxy Execution (T1218)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EDR_0013_Crowdstrike_Password_Spray_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EDR_0010_CrowdStrike_Excessive_Login_Failure | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1572",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: Forcepoint Proxy - Torrent Traffic Observation allowed | Protocol Tunneling (T1572)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: GoDigit_Linux Login without PAM | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: GoDigit_Suspicious URL communication_Proxy | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1486",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P1_Ransomware Behaviour_Based on MS Logs | Data Encrypted for Impact (T1486)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: EDR_0016_Crowdstrike_Login_from_TI_IP | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0015_Crowdstrike_TI_Hash_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: GoDigit_Windows Login without PAM | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: Oracle DB - User Account Changed | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1021",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: P1_Windows Process Executed for crackmap | Remote Services (T1021)"
+    },
+    {
+      "techniqueID": "T1059",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: RT_Usage of xp_cmdshell from SQL servers | Command and Scripting Interpreter (T1059)"
+    },
+    {
+      "techniqueID": "T1136",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: Oracle DB - User Account Addition Attempt | Create Account (T1136)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Oracle DB - Successful Configuration Modification | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1055",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: RT_Mavinject_Dll_Into_Running_Process | Process Injection (T1055)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P1_RT Creation of security enabled universal group | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: RT_Disabled guest or builtin account activated via command | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P1 RT Modification of Privileged Universal Group | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1531",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console IAM User Deleted | Account Access Removal (T1531)"
+    },
+    {
+      "techniqueID": "T1530",
+      "tactic": "collection",
+      "score": 1,
+      "comment": "Rule: P4-AWS CloudTrail: S3 Bucket has been created | Data from Cloud Storage Object (T1530)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P4-AWS CloudTrail: S3 Bucket has been deleted | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console AWS Config Recorder Deletion | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console AWS Config Rule Deletion | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P4-AWS CloudTrail: VPC Configuration Changes | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1580",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console Get Key Policy | Cloud Service Discovery (T1580)"
+    },
+    {
+      "techniqueID": "T1485",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console Database Instance Deleted | Data Destruction (T1485)"
+    },
+    {
+      "techniqueID": "T1528",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: Amazon AWS Console Key Pair Created | Steal Application Access Token (T1528)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: GoDigit_AWS Console Multiple Failed Logins From Same Source User Name | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: GoDigit_AWS Console Multiple Failed Logins From Multiple Source User Name | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P4-AWS Cloudtrail - IAM-Create or Delete or Update Groups | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3-AWS CloudTrail: Logging Configurations Change Detected | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: GoDigit_AWS Console Access Attempt From Multiple User Agent | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P4-AWS CloudTrail:S3 Bucket Policy changes | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3-AWS CloudTrail: Logs Deleted/ Disabled or Stopped | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1485",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: AWS_Detect Spike in S3 Bucket deletion | Data Destruction (T1485)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: AWS_Excessive Failed Logins on AWS Console from same source IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: AWS Network Access Control List Replaced | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3-AWS CloudTrail: Multiple Console Login Failures from Same Source IP | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: AWS Network Access Control List Deleted | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: AWS- MFA Disabled Activity | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1213",
+      "tactic": "collection",
+      "score": 1,
+      "comment": "Rule: AWS - EC2 Snapshot Shared Externally | Data from Information Repositories (T1213)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: AWS Network Access Control List Created | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1484",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: AWS - Password Policy Deleted | Domain Policy Modification (T1484)"
+    },
+    {
+      "techniqueID": "T1484",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: AWS - Password Policy Updated | Domain Policy Modification (T1484)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P1 RT Removal of member from Security Enabled Group or privileged group | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1528",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P4-AWS CloudTrail: Signing Certificate Removed | Steal Application Access Token (T1528)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_Blocked-subscription level exceeded in ForcePoint | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: RT_User password change using current hash password | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1041",
+      "tactic": "exfiltration",
+      "score": 1,
+      "comment": "Rule: P1 Outbound traffic- Blocked by Hosted Anti-Virus Scanning | Exfiltration Over C2 Channel (T1041)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P1-RT- Forcepoint - Proxy Communication Towards Blacklisted Domain | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1055",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: RT_Potential_Process_Injection_via_ Msra.exe | Process Injection (T1055)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: RT_Microsoft_Defender_Critical_Security_Components_Disabled_PowerShell | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1569",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: RT_Psexec remote execution via SMB | System Services (T1569)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_WAF_Remote Code Execution_Not Blocked | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P3_WAF_Malicious Software_Not Blocked | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_Router Successful configuration modification | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1068",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: RT_Print_spooler_privilege_escalation | Exploitation for Privilege Escalation (T1068)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Multiple High Medium severity signatures detected from the same source | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Allowed High Severity signatures detected | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1003",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2-Credential Dumping using SAM Registry Key | OS Credential Dumping (T1003)"
+    },
+    {
+      "techniqueID": "T1572",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: RT_RDP_tunneling_detected | Protocol Tunneling (T1572)"
+    },
+    {
+      "techniqueID": "T1047",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P2-WMI AD Persistence Activity | Windows Management Instrumentation (T1047)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P3_Excessive 400 and 500 series status code observed from same source | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Log4Shell Evasion Pattern observed in WAF | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_Log4Shell Base Pattern observed in WAF | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1028",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: RT_WINRS_Remote_Excution | Windows Remote Management (T1028)"
+    },
+    {
+      "techniqueID": "T1570",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: EDR_0009_Crowdstrike_Single_Malware_Allowed_in_Multiple_Hosts | Lateral Tool Transfer (T1570)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_Linux_Audit_Logs_Cleared | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_ZPA_Policy Added | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_ZPA _Policy deleted | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_Linux Root Login Failed | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: P4-FW-Device Firewall Fail Over | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3-Password Reset - Success By Unauthorised Resource | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2- Fortigate Firewall-High Severity IPS detections | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0008_Crowdstrike_Multiple_Malware_Allowed_in_Single_Host | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1003",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_MimiKatz Naive Use | OS Credential Dumping (T1003)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: Fractal _P3_- Suspicious and Sensitive ports Allowed Inbound Traffic port | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1548",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P3-Linux Doas Conf File Creation | Abuse Elevation Control Mechanism (T1548)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Fractal_Password change activity by unauthorized user | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1571",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P2_Traffic Towards Ransomware Port | Non-Standard Port (T1571)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0004_Crowdstrike_Low_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0003_Crowdstrike_Medium_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: Fractal _P3_- Suspicious and Sensitive ports Allowed Outbound Traffic port | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Azure AD_Application password successfully created for user | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0002_Crowdstrike_High_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_F5_ASM multiple 599 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Azure AD_Delegate Permissions Added | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1213",
+      "tactic": "collection",
+      "score": 1,
+      "comment": "Rule: P3_O365- Sharing Policy Activities Detected | Data from Information Repositories (T1213)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_F5_ASM multiple 999 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Fractal_Alert detected in Prisma CSPM | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Azure AD_Hard Deletion of group Successful | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_Azure AD_Application password Deleted for User Successfully | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Azure AD Successful group deletion | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1070",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Azure AD - Successful Removal of Owner from Group | Indicator Removal (T1070)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_F5_ASM multiple 888 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1114",
+      "tactic": "collection",
+      "score": 1,
+      "comment": "Rule: P3_O365- Message Modifications Detected | Email Collection (T1114)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P1_Detection in CrowdStrike for Threat Intel IOC - Hash | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P1_Detection in CrowdStrike for Threat Intel IOC - IP | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 400/404/451/502/503 response code from same source IP | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P2_SentinelOne Malware Detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: Azure AD_Password_Spray_Attack_detected within GoDigit Network | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_Ironscale_Malicious email observed | Phishing (T1566)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P2_SentinelOne_High Critical Threat Detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P2_New blocked threat detected in SentinelOne | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 403/417/500/504 response code from same source IP | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1484",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_Domain/Audit/Group Policy change | Domain Policy Modification (T1484)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_Machine requested permission to uninstall SentinelOne agent | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P1_New active threat detected in SentinelOne | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: GoDigit_Multiple Response Count to prod-directportal.godigit.com | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Fractal_O365_Conditional Access Removed | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 599 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_Compromised Credential Detected - Netskope | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1498",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB multiple 999 response code from same source IP | Network Denial of Service (T1498)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EGW_0002_O365_Password_Spray_Attack_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: Multiple blocked F5 WAF traffic detected from TI malicious IP | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1041",
+      "tactic": "exfiltration",
+      "score": 1,
+      "comment": "Rule: P2_Fractal_Large bytes received -  Zscaler Suspicious Category | Exfiltration Over C2 Channel (T1041)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: Allowed F5 WAF traffic detected from TI malicious IP | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Attack / Malicious attachment detected in IronScale | Phishing (T1566)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EGW_0004_O365_File_Malware_Detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: Azure AD_Brute_Force_Behavior_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: EGW_0007_O365_Threat_Intel_URL_Clicks_Permitted | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: EGW_0015_O365_Suspected_Phishing_Mail_Delivered | Phishing (T1566)"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Multiple malicious email sent from same sender email ID | Phishing (T1566)"
+    },
+    {
+      "techniqueID": "T1114",
+      "tactic": "collection",
+      "score": 1,
+      "comment": "Rule: EGW_0013_O365_Mail_Rights_Delegation_detected | Email Collection (T1114)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EDR_0011_CrowdStrike_Brute_Force_Behavior_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1041",
+      "tactic": "exfiltration",
+      "score": 1,
+      "comment": "Rule: P2_Fractal_Large bytes transferred - Zscaler Suspicious Category | Exfiltration Over C2 Channel (T1041)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: EGW_0016_O365_MFA_Change_Activity_detected | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Multiple malicious emails sent to same user | Phishing (T1566)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P2_Communication with Xforce categorized suspicious IPs - Outbound | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: EGW_0009_O365_Landspeed_Anomaly | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: FIR_0011_Firewall_Horizontal_Port_Scanning | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: EGW_0018_O365_Short_Lived_Account | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: EGW_0030_O365_Addition_or_Modification_Office_365_Administrator_Role | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: EGW_0029_O365_Two_factor_authentication_disabled | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: FIR_0012_Firewall_Vertical_Port_Scanning | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: EGW_0014_O365_New_Device_Enrolled_in_Azure | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_Denied Connections from TI_IP Feeds Inbound | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_Allowed Traffic to Suspicious TI - URL | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_Deny Connections towards TI_IP Feeds Outbound | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: EGW_0033_O365_Landspeed_Anomaly_Mailbox_Login | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_Allowed Connections from TI_IP Feeds Inbound | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1087",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: EGW_0010_O365_Email_Account_Discovery | Account Discovery (T1087)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P2_Allowed Connections towards TI_IP Feeds Outbound | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P1_Communication to / from threat intelligence IOC Domain's | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P1_User added/removed to/from privileged AD group | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P1_Traffic towards Kaseya CNC Ransomware domains | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P2_Same IPS Signature Triggered Multiple Times | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_Allowed Traffic to X-Force Risky URL | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: GODigit_F5_WAF_Multiple blocked events from same source IP | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: EGW_0011_O365_Highly_Targeted_Recipient | Phishing (T1566)"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: EGW_0012_O365_Huge_Mails_with_same_Subject_detected | Phishing (T1566)"
+    },
+    {
+      "techniqueID": "T1569",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P2_Excessive System Tools Usage from a Single Host | System Services (T1569)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: EGW_0001_O365_Brute_Force_Behavior_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P1_cve-2021-44228-detection for Domain | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_VMWare_Login failure detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: FIR_0008_Firewall_Communication_to_TI_IP | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_VMware_Brute Force Behavior detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: FIR_0004_FortiGate_Login_from_Public_IP | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P3_Vmware_Login Success from Public IP | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_VMware_Multiple User Login from Same Source | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0001_FortiGate_Login_Failure_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: FIR_0005_FortiGate_Login_from_TI_IP | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1529",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: FIR_0015_FortiGate_Device_Shutdown | System Shutdown/Reboot (T1529)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0001_Meraki_Login_Failure_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1021",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: FIR_0013_Firewall_Excessive_SMB_Connection | Remote Services (T1021)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P1_Detect Potential Log4Shell Activity | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P2_ Scanning Activity Detected on Fortigate Firewall | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0002_Meraki_Brute_Force_Behavior_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0003_Meraki_Password_Spray | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P2_Linux Login Failed Same Source Multiple User | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: AWS_Brute force on AWS Console | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: GoDigit_Amazon ELB Multiple Requests Rejected by WAF From Same Source In Short Time | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_User Account Enabled or Disabled | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0002_FortiGate_Brute_Force_Behavior_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0003_FortiGate_Password_Spray | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: FIR_0009_Firewall_Inbound_Communication_Over_Well_Known_Ports | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: FIR_0006_FortiGate_Configuration_changes_detected | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: FIR_0010_Firewall_Outbound_Communication_To_Well_Known_Ports | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: X-Force Risky IP, Botnet | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: X-Force Risky IP, Malware | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: UBA : Dormant Account Used | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1136",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: UBA : New Account Use Detected | Create Account (T1136)"
+    },
+    {
+      "techniqueID": "T1021",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: UBA : Potential Lateral Movement | Remote Services (T1021)"
+    },
+    {
+      "techniqueID": "T1499",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: Amazon AWS EKS Service deleted | Inhibit System Function (T1499)"
+    },
+    {
+      "techniqueID": "T1499",
+      "tactic": "impact",
+      "score": 1,
+      "comment": "Rule: Amazon AWS EKS Deployment deleted | Inhibit System Function (T1499)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Amazon AWS EKS HorizontalPodAutoscaler deleted | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Amazon AWS EKS Ingress deleted | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1505",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: Amazon AWS EKS ControllerRevision created | Server Software Component (T1505)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: Amazon AWS EKS Unauthorized ConfigMap Changes | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1068",
+      "tactic": "privilege-escalation",
+      "score": 1,
+      "comment": "Rule: P1_Windows Elevation of Privilege Vulnerability CVE-2021-36934 | Exploitation for Privilege Escalation (T1068)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_Windows Fractal Device is not reporting for 5 minutes | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_Fractal Devices is not reporting for 5 minutes | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P3_Fractal device not responding for 12 hours | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P4_Fractal Device not reporting for 24 hours | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Fractal devices not responding for 12 hours | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1098",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: P3_Linux group added/removed/modified | Account Manipulation (T1098)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Fractal Device is not reporting for 8 hours | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Fractal devices not reporting for 1 hour | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_Communication with Xforce categorized suspicious IPs - Inbound | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_AWS Waf_Allowed Traffic to X-Force Risky URL | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1090",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P3_ Multiple denied connections towards TI_IP Feeds Outbound | Proxy (T1090)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: FIR_0006_Meraki_Configuration_changes_detected | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1528",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: AWS_Access Key Creation/Deletion in Kubernets | Steal Application Access Token (T1528)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0001_PaloAlto_Login_Failure_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: FIR_0004_PaloAlto_Login_from_Public_IP | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0002_PaloAlto_Brute_Force_Behavior_detected | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: FIR_0005_PaloAlto_Login_from_TI_IP | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: FIR_0003_PaloAlto_Password_Spray | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: FIR_0006_PaloAlto_Configuration_changes_detected | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P2_Shodan Sensor Scanning Detected in Firewall | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1036",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P1_Suspicious Process Detected in non Default File Path | Masquerading (T1036)"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: P1_cve-2021-44228-detection for IP | Exploit Public-Facing Application (T1190)"
+    },
+    {
+      "techniqueID": "T1105",
+      "tactic": "command-and-control",
+      "score": 1,
+      "comment": "Rule: P1_Haldirams_Allowed traffic from Russian IP's | Ingress Tool Transfer (T1105)"
+    },
+    {
+      "techniqueID": "T1047",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P1 RT WMI Detection Consumer Event | Windows Management Instrumentation (T1047)"
+    },
+    {
+      "techniqueID": "T1003",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P1-RT-DCSYNC Memory Dump Detected | OS Credential Dumping (T1003)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P2_TrendMicro Apex Malware Detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0002_TrendMicroApex_High_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0003_TrendMicroApex_Medium_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0004_TrendMicroApex_Low_Severity_Alert_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0008_TrendMicroApex_Multiple_Malware_Allowed_in_Single_Host | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1570",
+      "tactic": "lateral-movement",
+      "score": 1,
+      "comment": "Rule: EDR_0009_TrendMicroApex_Single_Malware_Allowed_in_Multiple_Hosts | Lateral Tool Transfer (T1570)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: EDR_0015_TrendMicroApex_TI_Hash_detected | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1204",
+      "tactic": "execution",
+      "score": 1,
+      "comment": "Rule: P2_Repeated Virus detections on same machine | User Execution (T1204)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Apex_Web Security action other than block | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1562",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: P2_Apex_Device access control action other than block | Impair Defenses (T1562)"
+    },
+    {
+      "techniqueID": "T1046",
+      "tactic": "discovery",
+      "score": 1,
+      "comment": "Rule: P3_Scanning activity Detected | Network Service Discovery (T1046)"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 1,
+      "comment": "Rule: P3_Linux_Admin Authentication failure same src ip | Brute Force (T1110)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: UBA : Detected Activity from a Locked Machine | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "defense-evasion",
+      "score": 1,
+      "comment": "Rule: UBA : Terminated User Activity | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "initial-access",
+      "score": 1,
+      "comment": "Rule: UBA : AWS Console Accessed by Unauthorized User | Valid Accounts (T1078)"
+    },
+    {
+      "techniqueID": "T1547",
+      "tactic": "persistence",
+      "score": 1,
+      "comment": "Rule: UBA : Malware Activity - Registry Modified In Bulk | Boot or Logon Autostart Execution (T1547)"
+    },
+    {
+      "techniqueID": "T1052",
+      "tactic": "exfiltration",
+      "score": 1,
+      "comment": "Rule: UBA : Data Exfiltration by Removable Media | Data from Removable Media (T1052)"
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#ffffff",
+      "#ff6666"
+    ],
+    "minValue": 0,
+    "maxValue": 1
+  },
+  "legendItems": []
+}
